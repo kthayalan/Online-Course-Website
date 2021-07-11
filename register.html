@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\stylesheet.css">
+    <script src="js\signup.js" type="text/javascript"></script>
+    <title>Register</title>
+</head>
+<body>
+    <!-- Top Navigation-->
+    <div class="nav">
+        <div class="nav-left">
+            <div class="logo">
+                <b><a href="index.html">EduWell</a></b>
+            </div>
+        </div>
+        <div class="nav-right">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="login.html" class="box">Login</a>
+        </div>
+    </div>
+
+    <!--Create Account-->
+    <div class="signup-con">
+        <img src="images\register.jpg" alt="register-image">
+        <div class="signup-overlay">
+            <div class="signup-row">
+                <div class="signup-column">
+                    <div class="text-container">
+                        <h1>CREATE AN ACCOUNT AND LEARN FROM THE EXPERT</h1>
+                        <p style="color: rgb(212, 206, 172);">
+                            CHOOSE WORLD CLASS TOP COURSES FROM US
+                        </p>
+                    </div>
+                </div>
+                <div class="signup-column">
+                    <div class="form-con">
+                        <h2>Sign Up</h2>
+                        <form id="form" onsubmit="return validate()" action="entrol.html">
+                            <div class="form-control">
+                                <input type="text" id="fname" placeholder="First Name">
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="text" id="lname" placeholder="Last Name">
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="text" id="email" placeholder="Email">
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="password" id="password1" placeholder="Password">
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="password" id="password2" placeholder="Re-type Password">
+                                <small>Error message</small>
+                            </div>
+                            <div class="return">
+                                <a href="login.html">Return to login</a> <br> <br>
+                            </div>
+                            <button type="submit">Create</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-con">
+        <div class="footer-row">
+            <div class="footer-column">
+                <h2>Have a Questions?</h2>
+                <p>No.502, 1st cross, mount lavia Colombo, Srilanka</p>
+                <p>+94 112 264 852</p>
+                <p>info@eduwell.com</p>
+            </div>
+            <div class="footer-column">
+                <h2>Links</h2>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="register.html">Register</a>
+                <a href="login.html">Login</a>
+            </div>
+            <div class="footer-column">
+                <h2>Follow Us</h2>
+                <a href="twitter/eduwll">Twitter</a><br>
+                <a href="facebook/eduwell">Facebook</a><br>
+                <a href="linkedin.com/eduwell">Linkedin</a><br>
+                <a href="instragram.com/eduwell">Instragram</a>
+            </div>
+            <div class="footer-column">
+                <h2>Subscribe Us!</h2>
+                <p>Stay updated with our latest trends</p>
+                <input type="text" name="email"> <br>
+                <input type="submit">
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <hr>
+            <p>Copyright ©2020 All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
